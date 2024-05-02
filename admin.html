@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Русичи</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header_wrapper">
+                <div class="header_logo">
+                    <img src="" alt="">
+                    <div class="dropdown">
+                        <button onclick="dropdown()" class="dropbtn">Команды</button>
+                        <div id="myDropdown" class="dropdown-content">
+                          <a href="#">Медведи</a>
+                          <a href="#">Рыси</a>
+                          <a href="#">Барсы</a>
+                          <a href="#">Орлы</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="header_menu">
+                    <a href="admin.html">
+                        <img src="images/profile_test.png" class="profile_photo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <img src="images/gerb_left.png" class="left_gerb">
+    <img src="images/gerb_right.png" class="right_gerb">
+
+    <main>
+        <div class="container">
+            <div class="profile_grid">
+                <div class="left_grid">
+                    <div class="left_grid_element">
+                        <img src="images/profile_test.png" class="big_profile_pic">
+                        <h1 class="left_grid_content">Admin</h1>
+                    </div>
+                </div>
+                <div class="right_grid">
+                    <div class="form_container">
+                        <h1>Команда или курсант?</h1>
+                        <input type="text" placeholder="Курсант" class="adm_inp">
+                        <h1>Название команды/Имя, фамилия курсанта</h1>
+                        <input type="text" placeholder="Имя Фамилия" class="adm_inp">
+                        <h1>Наименование критерия</h1>
+                        <input type="text" placeholder="Разведчик" class="adm_inp">
+                        <h1>Начисление баллов</h1>
+                        <input type="number" placeholder="+1" class="adm_inp">
+                        <button class="confirm_points">Начислить</button>
+                    </div> 
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="create_add_container">
+                <h1>Логин</h1>
+                <input type="text" placeholder="cursant123" class="adm_inp">
+                <h1>Пароль</h1>
+                <input type="text" placeholder="password123" class="adm_inp">
+                <button class="confirm_create">Создать аккаунт</button>
+            </div>
+        </div>
+        <div class="container">
+            <div class="create_add_container">
+                <h1>Имя</h1>
+                <input type="text" placeholder="Иван" class="adm_inp">
+                <h1>Фамилия</h1>
+                <input type="text" placeholder="Антонов" class="adm_inp">
+                <h1>Команда</h1>
+                <input type="text" placeholder="Медведи" class="adm_inp">
+                <button class="confirm_create">Добавить в команду</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
