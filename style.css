@@ -221,7 +221,6 @@ header {
     color: var(--main-text);
     margin: 24px 0px 24px 24px;
     border-radius: 10px;
-    height: 850px;
 }
 
 .bears_legend * {
