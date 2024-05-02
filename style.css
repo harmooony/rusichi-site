@@ -34,6 +34,11 @@
     align-items: center;
 }
 
+.header_logo {
+    display: flex;
+    align-items: center;
+}
+
 header {
     background-color: var(--main-background-color);
 }
