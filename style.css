@@ -330,6 +330,30 @@ header {
     margin: 0 auto;
 }
 
+
+/* авторизация */
+
+.aut_cont {
+    display: flex;
+    margin: 0 auto;
+}
+
+.authorization_button {
+    height: 100px;
+    width: 400px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 370px;
+    background-color: var(--main-text);
+    color: var(--main-background-color);
+    font-size: 36px;
+}
+
+.authorization_button:hover {
+    background-color: var(--hover-color);
+}
+
 /* выпадающее меню */
 .dropbtn {
     background-color: white;
