@@ -9,6 +9,7 @@
     --main-background-color: rgb(41, 41, 41);
     --bears-background: rgb(101,56,24);
     --ryisi-background: rgb(224, 177, 140);
+    --barsi-background: rgb(129,224,253);
     --main-text: white;
     --secondary-text: black;
 }
@@ -254,6 +255,7 @@ header {
     width: 48px;
     height: 48px;
     margin-left: 16px;
+    padding-top: 6px;
 }
 
 .start {
@@ -287,6 +289,28 @@ header {
 }
 
 .ryisi_legend * {
+    margin: 0 auto;
+}
+
+/* барсы */
+
+.bars_icon {
+    width: 58px;
+    height: 48px;
+    padding-top: 6px;
+    margin-left: 16px;
+}
+
+.bars_legend {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--barsi-background);
+    color: var(--secondary-text);
+    margin: 24px 0px 24px 24px;
+    border-radius: 10px;
+}
+
+.bars_legend * {
     margin: 0 auto;
 }
 
