@@ -8,6 +8,7 @@
     --hover-color: rgb(168, 168, 168);
     --main-background-color: rgb(41, 41, 41);
     --bears-background: rgb(101,56,24);
+    --ryisi-background: rgb(224, 177, 140);
     --main-text: white;
 }
 
@@ -270,6 +271,21 @@ header {
 }
 
 .bears_legend * {
+    margin: 0 auto;
+}
+
+/* рыси */
+
+.ryisi_legend {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--ryisi-background);
+    color: var(--main-text);
+    margin: 24px 0px 24px 24px;
+    border-radius: 10px;
+}
+
+.ryisi_legend * {
     margin: 0 auto;
 }
 
