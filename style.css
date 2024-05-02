@@ -217,6 +217,23 @@ header {
     padding: 32px 0px 32px 0px;
 }
 
+.rating_output {
+    display: flex;
+    background-color: var(--main-background-color);
+    border-radius: 15px;
+    margin-top: 24px;
+    color: var(--main-text);
+}
+
+.rate_name {
+    font-size: 48px;
+    margin: 24px 0px 24px 24px;
+}
+
+.rate_num {
+    margin: 24px 24px 24px auto;
+}
+
 /* медведи */
 
 .bears_legend {
