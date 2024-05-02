@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Русичи</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header_wrapper">
+                <div class="header_logo">
+                    <a href="index.html">
+                        <img src="images/logo_1-01.svg" class="logo">
+                    </a>
+                    <div class="dropdown">
+                        <button onclick="dropdown()" class="dropbtn">Команды</button>
+                        <div id="myDropdown" class="dropdown-content">
+                          <a href="bears.html">Медведи</a>
+                          <a href="ryisi.html">Рыси</a>
+                          <a href="barsi.html">Барсы</a>
+                          <a href="eagles.html">Орлы</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="header_menu">
+                    <a href="admin.html">
+                        <img src="images/profile_test.png" class="profile_photo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <img src="images/gerb_left.png" class="left_gerb">
+    <img src="images/gerb_right.png" class="right_gerb">
+
+    <div class="container">
+        <div class="fill_cont">
+            <h1>Имя</h1>
+            <input type="text" class="log" placeholder="Иван">
+            <h1>Фамилия</h1>
+            <input type="password" class="log" placeholder="Антонов">
+            <h1>Достижения</h1>
+            <input type="text" class="log" placeholder="Первое место в турнире по каратэ">
+            <h1>Увлечения</h1>
+            <input type="text" class="log" placeholder="Люблю разбирать оружие">
+            <h1>Возраст</h1>
+            <input type="text" class="log" placeholder="15 лет">
+            <button class="reg_but">Войти</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
