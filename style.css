@@ -254,6 +254,10 @@ header {
     margin-left: 16px;
 }
 
+.start {
+    padding-top: 24px;
+}
+
 /* медведи */
 
 .bears_legend {
