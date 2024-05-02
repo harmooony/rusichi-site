@@ -10,6 +10,7 @@
     --bears-background: rgb(101,56,24);
     --ryisi-background: rgb(224, 177, 140);
     --barsi-background: rgb(129,224,253);
+    --eagles-background: rgb(255, 219, 88);
     --main-text: white;
     --secondary-text: black;
 }
@@ -311,6 +312,21 @@ header {
 }
 
 .bars_legend * {
+    margin: 0 auto;
+}
+
+/* орлы */
+
+.eagles_legend {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--eagles-background);
+    color: var(--secondary-text);
+    margin: 24px 0px 24px 24px;
+    border-radius: 10px;
+}
+
+.eagles_legend * {
     margin: 0 auto;
 }
 
