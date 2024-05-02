@@ -17,15 +17,15 @@
                     <div class="dropdown">
                         <button onclick="dropdown()" class="dropbtn">Команды</button>
                         <div id="myDropdown" class="dropdown-content">
-                          <a href="bears.html">Медведи</a>
-                          <a href="ryisi.html">Рыси</a>
-                          <a href="barsi.html">Барсы</a>
-                          <a href="eagles.html">Орлы</a>
+                          <a href="bears.php">Медведи</a>
+                          <a href="ryisi.php">Рыси</a>
+                          <a href="barsi.php">Барсы</a>
+                          <a href="eagles.php">Орлы</a>
                         </div>
                       </div>
                 </div>
                 <div class="header_menu">
-                    <a href="admin.html">
+                    <a href="admin.php">
                         <img src="images/profile_test.png" class="profile_photo">
                     </a>
                 </div>

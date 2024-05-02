@@ -17,15 +17,15 @@
                     <div class="dropdown">
                         <button onclick="dropdown()" class="dropbtn">Команды</button>
                         <div id="myDropdown" class="dropdown-content">
-                          <a href="bears.html">Медведи</a>
-                          <a href="ryisi.html">Рыси</a>
-                          <a href="barsi.html">Барсы</a>
-                          <a href="eagles.html">Орлы</a>
+                          <a href="bears.php">Медведи</a>
+                          <a href="ryisi.php">Рыси</a>
+                          <a href="barsi.php">Барсы</a>
+                          <a href="eagles.php">Орлы</a>
                         </div>
                       </div>
                 </div>
                 <div class="header_menu">
-                    <a href="admin.html">
+                    <a href="admin.php">
                         <img src="images/profile_test.png" class="profile_photo">
                     </a>
                 </div>
@@ -37,15 +37,15 @@
 
     <div class="container">
         <div class="rate_main">
-            <h1 class="lr">Барсы</h1>
-            <img src="images/bars.png" class="bars_icon">
+            <h1 class="lr">Орлы</h1>
+            <img src="images/eagle.png" class="team_icon">
             <h2 class="rr">Рейтинг:</h2>
         </div>
     </div>
 
     <div class="container">
         <div class="team_grid">
-            <div class="bars_legend">
+            <div class="eagles_legend">
                 <h1 class="start">Легенда графика</h1>
                 <h1 class="legend_txt">Разведчики - оливковый</h1>
                 <h1 class="legend_txt">Спасатели - оранжевый</h1>

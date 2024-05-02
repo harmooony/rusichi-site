@@ -154,7 +154,6 @@ header {
 }
 
 .form_container:first-child {
-    margin-left: 28px;
     padding-top: 16px;
 }
 
@@ -163,6 +162,7 @@ header {
     height: 45px;
     border-radius: 5px;
     width: 100%;
+    padding-left: 10px;
 }
 
 .confirm_points {
@@ -372,6 +372,8 @@ header {
 
 .reg_cont {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     border-radius: 15px;
     background-color: var(--main-background-color);

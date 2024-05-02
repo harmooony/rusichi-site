@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
     <title>Русичи</title>
 </head>
-<body>
+<body style="height: 100vh;">
     <header>
         <div class="container">
             <div class="header_wrapper">
@@ -17,15 +17,15 @@
                     <div class="dropdown">
                         <button onclick="dropdown()" class="dropbtn">Команды</button>
                         <div id="myDropdown" class="dropdown-content">
-                          <a href="bears.html">Медведи</a>
-                          <a href="ryisi.html">Рыси</a>
-                          <a href="barsi.html">Барсы</a>
-                          <a href="eagles.html">Орлы</a>
+                          <a href="bears.php">Медведи</a>
+                          <a href="ryisi.php">Рыси</a>
+                          <a href="barsi.php">Барсы</a>
+                          <a href="eagles.php">Орлы</a>
                         </div>
                       </div>
                 </div>
                 <div class="header_menu">
-                    <a href="admin.html">
+                    <a href="admin.php">
                         <img src="images/profile_test.png" class="profile_photo">
                     </a>
                 </div>
@@ -36,12 +36,12 @@
     <img src="images/gerb_right.png" class="right_gerb">
 
     <div class="container">
-        <div class="reg_cont">
+        <form action="authorization.php" class="reg_cont">
             <h1>Логин</h1>
-            <input type="text" class="log" placeholder="login123">
+            <input name="login" type="text" class="log" placeholder="login123">
             <h1>Пароль</h1>
-            <input type="password" class="log" placeholder="passwORD123">
-            <button class="reg_but">Войти</button>
+            <input name="password" type="password" class="log" placeholder="passwORD123">
+            <input type="submit" value="Войти" class="reg_but">
         </div>
     </div>
 

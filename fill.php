@@ -1,3 +1,11 @@
+<?php 
+    include("connect.php");
+
+    if (!isset($_COOKIE['id'])) {
+        header("Location: authorization.html");
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,15 +25,15 @@
                     <div class="dropdown">
                         <button onclick="dropdown()" class="dropbtn">Команды</button>
                         <div id="myDropdown" class="dropdown-content">
-                          <a href="bears.html">Медведи</a>
-                          <a href="ryisi.html">Рыси</a>
-                          <a href="barsi.html">Барсы</a>
-                          <a href="eagles.html">Орлы</a>
+                          <a href="bears.php">Медведи</a>
+                          <a href="ryisi.php">Рыси</a>
+                          <a href="barsi.php">Барсы</a>
+                          <a href="eagles.php">Орлы</a>
                         </div>
                       </div>
                 </div>
                 <div class="header_menu">
-                    <a href="admin.html">
+                    <a href="admin.php">
                         <img src="images/profile_test.png" class="profile_photo">
                     </a>
                 </div>
@@ -36,20 +44,21 @@
     <img src="images/gerb_right.png" class="right_gerb">
 
     <div class="container">
-        <div class="fill_cont">
+        <form action="send_fill.php" class="fill_cont">
             <h1>Имя</h1>
-            <input type="text" class="log" placeholder="Иван">
+            <input name="name" type="text" class="log" placeholder="Иван">
             <h1>Фамилия</h1>
-            <input type="password" class="log" placeholder="Антонов">
+            <input name="surname" type="text" class="log" placeholder="Антонов">
             <h1>Достижения</h1>
-            <input type="text" class="log" placeholder="Первое место в турнире по каратэ">
+            <input name="achiev"type="text" class="log" placeholder="Первое место в турнире по каратэ">
             <h1>Увлечения</h1>
-            <input type="text" class="log" placeholder="Люблю разбирать оружие">
+            <input name="uvlech" type="text" class="log" placeholder="Люблю разбирать оружие">
             <h1>Возраст</h1>
-            <input type="text" class="log" placeholder="15 лет">
-            <button class="reg_but">Войти</button>
-        </div>
+            <input name="age" type="text" class="log" placeholder="15 лет">
+            <input type="submit" value="Войти" class="reg_but">
+        </form>
     </div>
+    
 
     <script src="script.js"></script>
 </body>
