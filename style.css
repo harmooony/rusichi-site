@@ -10,6 +10,7 @@
     --bears-background: rgb(101,56,24);
     --ryisi-background: rgb(224, 177, 140);
     --main-text: white;
+    --secondary-text: black;
 }
 
 .container {
@@ -280,7 +281,7 @@ header {
     display: flex;
     flex-direction: column;
     background-color: var(--ryisi-background);
-    color: var(--main-text);
+    color: var(--secondary-text);
     margin: 24px 0px 24px 24px;
     border-radius: 10px;
 }
