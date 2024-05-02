@@ -364,6 +364,49 @@ header {
     background-color: var(--hover-color);
 }
 
+.authorization_box {
+    display: flex;
+    margin: 0 auto;
+    text-decoration: none;
+}
+
+.reg_cont {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: var(--main-background-color);
+    color: var(--main-text);
+    margin-top: 48px;
+}
+
+.reg_cont * {
+    margin-left: 26px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.reg_but {
+    width: 250px;
+    height: 50px;
+    border: 1px solid var(--main-background-color);
+    border-radius: 5px;
+    background-color: var(--main-text);
+    color: var(--main-background-color);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reg_but:hover {
+    background-color: var(--hover-color);
+}
+
+.log {
+    height: 45px;
+    max-width: 700px;
+    width: 100%;
+}
+
+
 /* выпадающее меню */
 .dropbtn {
     background-color: white;
