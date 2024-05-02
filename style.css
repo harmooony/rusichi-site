@@ -234,6 +234,26 @@ header {
     margin: 24px 24px 24px auto;
 }
 
+.rate_main {
+    display: flex;
+    align-items: center;
+}
+
+.lr {
+    margin-left: 24px;
+}
+
+.rr {
+    margin-left: auto;
+    margin-right: 24px;
+}
+
+.team_icon {
+    width: 48px;
+    height: 48px;
+    margin-left: 16px;
+}
+
 /* медведи */
 
 .bears_legend {
